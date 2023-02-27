@@ -1,0 +1,54 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#login .form {
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem;
+}
+
+#login .field {
+    padding-bottom: 0.5rem;
+}
+
+#login .field label{
+    display: block;
+}
+
+#login .field input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
+}
+
+#login .actions {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 5px;
+    min-width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+} 
+
+button:hover {
+    border: none;
+    padding: 10px;
+    background-color: rgb(190, 35, 66);
+    border-radius: 5px;
+    min-width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+} 
